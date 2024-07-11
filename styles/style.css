@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Azeret Mono", monospace;
+}
+/* Share Style */
+
+/* Header Section */
+.header {
+  width: 100%;
+  height: 652px;
+  margin: 100px auto;
+  background-image: url("../assets/Hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #ddd;
+  border-style: dashed;
+  border-left: none;
+  border-right: none;
+}
+/* Navbar Section */
+.header .navbar {
+  margin: -80px auto;
+  width: 80%;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .navbar .nav-heading {
+  font-size: 28px;
+  font-weight: 800;
+}
+.header .navbar .nav-download {
+  text-decoration: none;
+  color: black;
+}
+.header .navbar .nav-download button {
+  background: none;
+  cursor: pointer;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  opacity: 0.8;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+}
+/* hero-section */
+.hero-section {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin: auto;
+}
+.hero-image {
+  width: 170px;
+}
+.hero-section .hero-title {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 68px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.hero-section .hero-description {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.hero-section .hero-btn {
+  background: rgb(13, 19, 33);
+  color: white;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 21px 24px 21px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+}
