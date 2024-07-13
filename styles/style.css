@@ -35,12 +35,31 @@
   line-height: 26px;
   letter-spacing: 0%;
 }
+.center {
+  text-align: center;
+}
 .heading {
   color: rgb(13, 19, 33);
   font-size: 32px;
   font-weight: 800;
   line-height: 32px;
   letter-spacing: 0%;
+}
+.box-heading {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32px;
+  letter-spacing: 0%;
+  margin-bottom: -8px;
+}
+.web-dev-heading {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
 }
 .learn-more-link {
   color: rgb(13, 19, 33);
@@ -57,7 +76,6 @@
   flex-direction: column;
   gap: 20px;
   text-align: center;
-  le
 }
 
 /* Header Section */
@@ -73,6 +91,7 @@
   border-left: none;
   border-right: none;
 }
+
 /* Navbar Section */
 .header .navbar {
   margin: -80px auto;
@@ -236,11 +255,11 @@
 }
 /* my-inspiration Styles */
 .my-inspiration {
-  margin: 100px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 48px;
+  gap: 50px;
+  margin-bottom: 100px;
 }
 .my-inspiration-content {
   width: 100%;
@@ -269,7 +288,7 @@
   gap: 10px;
 }
 .my-target-content .description {
-text-align: center;
+  text-align: center;
 }
 .my-target-current-cards {
   display: flex;
@@ -277,7 +296,7 @@ text-align: center;
   justify-content: space-between;
   gap: 20px;
 }
-.my-current-target-card{
+.my-current-target-card {
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -297,4 +316,43 @@ text-align: center;
 .card-3 {
   border-radius: 16px;
   background: rgba(255, 223, 0, 0.05);
+}
+/* My next Inspiration Style */
+.next-inspiration {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-bottom: 100px;
+}
+.next-inspiration-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+.next-inspiration-cards {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.next-inspiration-card {
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+.next-inspiration-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.next-inspiration-card img {
+  width: 94.78px;
+  height: 84.41px;
 }
