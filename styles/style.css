@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: "Azeret Mono", monospace;
 }
 /* Share Style */
@@ -355,4 +356,73 @@
 .next-inspiration-card img {
   width: 94.78px;
   height: 84.41px;
+}
+/* Footer Styles */
+.need-support-Container {
+  width: 100%;
+  height: 500px;
+  border-radius: 16px;
+  margin-bottom: 100px;
+  background-image: url("../assets/handshake.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.need-support-content {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.need-support-content p {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.need-support-content h1 {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.need-support-Container .input-container input {
+  padding: 10px 20px;
+  width: 350px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+}
+.need-support-Container .input-container button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.need-support-Container .input-container {
+  margin: 0 auto;
+}
+.footer-link-container {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.footer-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
